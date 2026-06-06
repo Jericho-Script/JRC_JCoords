@@ -64,14 +64,6 @@ Get precise coordinates, heading information, vector exports, and favorite locat
 
 ---
 
-## 📸 Preview
-
-### Main Interface
-
-![Preview](preview.png)
-
----
-
 ## ⌨️ Commands
 
 | Command   | Description     |
