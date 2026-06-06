@@ -1,7 +1,7 @@
 # 🚀 JRC-JCoord
 
 <p align="center">
-  <img src="banner.png" alt="JRC-JCoord Banner" width="100%">
+  <img src="jrc-banner.png" alt="JRC-JCoord Banner" width="100%">
 </p>
 
 <p align="center">
