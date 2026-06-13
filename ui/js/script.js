@@ -133,7 +133,7 @@ function updateCoords(data) {
 }
 
 function postNUI(action, data) {
-    $.post('https://JRC_JCoord/' + action, JSON.stringify(data));
+    $.post(`https://${GetParentResourceName()}/${action}`, JSON.stringify(data));
 }
 
 function showToast(msg, success) {

@@ -179,6 +179,7 @@ end
 local function CloseUI()
     isUIOpen = false
     laserActive = false
+    SetNuiFocusKeepInput(false)
     SetNuiFocus(false, false)
     SendNUIMessage({ action = "close" })
 end
@@ -193,9 +194,7 @@ RegisterNUICallback('close', function(_, cb)
 end)
 
 RegisterNUICallback('toggleLaser', function(_, cb)
-    isUIOpen = false
-    SetNuiFocus(false, false)
-    SendNUIMessage({ action = "close" })
+    CloseUI()
     Wait(100)
     StartLaser()
     cb('ok')
